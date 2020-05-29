@@ -3,18 +3,19 @@
 
 #include <assert.h>
 
-// Next steps - for time estimates listed, 1 day = 8 hrs (1 work day)
-// 1. Bonus 1: M N K 
+// Next steps 
+// 1. Do an overall clean up / refactor pass and simplify the code
+// 2. Bonus 1: M N K 
     // You can set the m,n,k macros below to see a different m,n,k variation
     // I only ran manual tests, so there are probably some bugs
 	// Next steps and estimates:
-		// write unit tests to validate CheckWin() functions for different mkn variations (1 day)
-        // code logic found from tests above (half day)
-// 2. Bonus 2: Undo history (half day)
+		// write unit tests to validate CheckWin() functions for different mkn variations 
+        // code logic found from tests above 
+// 3. Bonus 2: Undo history 
    // Add user key input to undo
    // Create a stack and add each mark to the stack
    // Update the Game Manager data members accordingly
-// 3. Finish TODOs left in code (half day)
+
 
 #define ROW 3 //m
 #define COLUMN 3 //n
